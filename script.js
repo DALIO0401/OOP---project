@@ -85,7 +85,7 @@ class QuizApp {
         const isCorrect = question.isCorrect(selectedIndex);
 
         if (isCorrect) {
-            this.score;
+            this.score++; // FIXED: increment score when correct
             button.classList.add('correct');
         } else {
             button.classList.add('incorrect');
@@ -93,6 +93,7 @@ class QuizApp {
             const correctBtn = this.answerOptions.children[question.correctIndex];
             correctBtn.classList.add('correct');
         }
+
 
         // Disable all buttons after selection
         Array.from(this.answerOptions.children).forEach(btn => btn.disabled = true);
