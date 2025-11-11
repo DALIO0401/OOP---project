@@ -48,16 +48,16 @@ h2{
 }
 
 .topic-card{
-  background-color: #e1e3ff;
+  background-color: #86e1f1;
   padding: 18px;
   border-radius: 8px;
   cursor: pointer;
   transition: 0.3s ease;
-  border: 1px solid #d2d4fa;
+  border: 1px solid #49a1ee;
 }
 
 .topic-card:hover{
-  background-color: #c8cbff;
+  background-color: #f0bdf3;
   transform: scale(1.03);
 }
 
